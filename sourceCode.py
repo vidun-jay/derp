@@ -33,9 +33,11 @@ print(colors.cyan + r"""
 print("Decision & Evaluation Review Protocol")
 print(colors.red + 'Copyright © 2020 Vidun Jayakody. All rights reserved.\n' + colors.end)
 print("\n")
-print('*Following the recent tragedy of Vidun wiping his hard drive, D.E.R.P. has death\n')
-print("*From it's ashes was born the new and improved D.E.R.P. written in Python 3!\n")
-print("*Enjoy all of D.E.R.P.'s original features, PLUS \nbrand new DERP title, and" + colors.cyan + " fancy" + colors.green + " new" + colors.red + " colors!" + colors.end + "\n")
+print("*Welcome to DERP! Ask me a question and I'll respond whether or not I think you should do it\n")
+print("*If you're having trouble deciding between two things, ask a question with the word 'or' and I'll pick one for you.\n")
+print("* Example: Should I buy airpods?\n")
+print("* Example: Should I buy coffe from starbucks" + colors.green + "or" colors.end + "tim hortons")
+
 # Sets checkpoint for if user does not input valid y/n value
 while True:
     answer = input(colors.green + 'Would you like to continue? (y/n) ' + colors.end)
