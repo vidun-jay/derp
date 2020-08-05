@@ -34,9 +34,9 @@ print("Decision & Evaluation Review Protocol")
 print(colors.red + 'Copyright © 2020 Vidun Jayakody. All rights reserved.\n' + colors.end)
 print("\n")
 print("*Welcome to DERP! Ask me a question and I'll respond whether or not I think you should do it\n")
-print("*If you're having trouble deciding between two things, ask a question with the word 'or' and I'll pick one for you.\n")
+print("*If you're having trouble deciding between two things, ask a question \nwith the word 'or' and I'll pick one for you.\n")
 print("* Example: Should I buy airpods?\n")
-print("* Example: Should I buy coffe from starbucks" + colors.green + "or" colors.end + "tim hortons")
+print("* Example: Should I buy coffe from starbucks " + colors.green + "or" + colors.end + " tim hortons\n")
 
 # Sets checkpoint for if user does not input valid y/n value
 while True:
@@ -55,7 +55,7 @@ while True:
 # Clears screen
         clear()
 
-# 
+#
         print(colors.cyan + r"""
 ██████╗    ███████╗   ██████╗    ██████╗ 3.0
 ██╔══██╗   ██╔════╝   ██╔══██╗   ██╔══██╗   
